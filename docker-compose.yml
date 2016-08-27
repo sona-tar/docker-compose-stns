@@ -1,0 +1,8 @@
+version: '2'
+services:
+  stns:
+    image: stns/stns
+    volumes:
+        - ./stns.conf:/etc/stns/stns.conf
+    ports:
+        - 1104:1104
